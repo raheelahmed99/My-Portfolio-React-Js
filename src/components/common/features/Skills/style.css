@@ -1,0 +1,18 @@
+#skill-sec{
+    height: 100vh;
+    padding-top: 150px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.skill-title, .skill-rating{
+    padding: 20px;
+    display: flex;
+    width: 250px;   
+}
+.skill-rating .fa-star{
+    color: yellow;
+   
+}

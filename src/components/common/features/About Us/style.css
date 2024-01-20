@@ -1,0 +1,70 @@
+#welcome-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   
+ }
+ 
+#welcome-sec .text-sec{
+     text-transform: capitalize;
+     word-spacing: 10px;
+     letter-spacing: 2px;
+     line-height: 80px;
+     padding-left: 20px;
+     color: aliceblue;
+ 
+ }
+#welcome-sec .text-name{
+     font-size: 4rem;
+     margin-bottom: 30px;
+ }
+ #welcome-sec .skill-name{
+     float: right;
+     line-height: 20px;
+ }
+#welcome-sec .portfolio-img img{
+     width:300px;
+     height:300px;
+     border-radius: 50%;
+ }
+#welcome-sec .text-lg{
+      
+     color:rgb(214, 212, 234);
+     background-color: rgb(27, 54, 104);
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     letter-spacing: 10px;
+ }
+#welcome-sec .image-sec{
+    background-color: rgb(130, 159, 212);
+    padding: 50px 80px;
+    border-radius: 45px 15px;
+    box-shadow: 8px 7px  5px rgb(194, 194, 228);
+ }
+ #welcome-sec .image-sec .profile-links{
+     display: flex;
+     justify-content: space-evenly;
+     
+     margin-top: 30px;
+     
+ }
+.fa-brands {
+    font-size: 3rem;
+    width: 30px;
+    color: rgb(27, 54, 104)
+}
+ .profile-links  .btn-cv{
+     font-size: 0.8rem;
+     display: inline;
+     width: 150px;
+     height: 40px;
+     padding:10px 25px;
+     color: rgb(214, 212, 234);
+     background: linear-gradient(rgb(84, 103, 210),rgb(46, 15, 183));
+     
+ }
+.btn-cv a{
+    font-size:1rem;
+    color: rgb(214, 212, 234);
+    font-weight: 800;
+}
